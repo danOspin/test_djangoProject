@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Portada{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h2>This is not here</h2>
+    <span class="subheading">Markets api</span>
+
+{% endblock %}
+
+{% block content%}
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Chuck Norris</h2>
+
+        <p>Lorem impsunm dolor sir</p>
+        <p>Lorem impsunm dolor sir</p>
+        <p>Lorem impsunm dolor sir</p>
+    </div>
+{% endblock %}
